@@ -4,7 +4,7 @@ public class Main {
         int mass = 58;
         double tall = 1.83;
         double index = service.calculate(tall, mass);
-        
+
         System.out.println(Math.round(index));
     }
 }
